@@ -199,7 +199,7 @@ The goal is to build a report that shows the total spend for each account across
 This means the timestamp column needs be be rounded down from millisecond to hour granularity. 
 
 Just like a SQL query, Flink can select the required fields and group by your keys.
-These features, allong with [built-in functions]({% link dev/table/functions/systemFunctions.zh.md %}) like `floor` and `sum`, you can write this report.
+These features, along with [built-in functions]({% link dev/table/functions/systemFunctions.zh.md %}) like `floor` and `sum`, you can write this report.
 
 {% highlight java %}
 public static Table report(Table rows) {
